@@ -33,7 +33,7 @@ handleBad=()=>{this.setState((prevState)=>{
         return(
             <div>
                 <div>
-                    <h2>Feedback</h2>
+                <h2>Feedback</h2>
                 </div>
                 <p className="good__value">{this.state.good}</p>
                 <button type="button"onClick={this.handleGood}>Good</button>
@@ -42,6 +42,7 @@ handleBad=()=>{this.setState((prevState)=>{
                 <p className="bad__value">{this.state.bad}</p>
                 <button type="button"onClick={this.handleBad}>Bad</button>
             </div>
+
         )
     }
 }
