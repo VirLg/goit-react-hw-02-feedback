@@ -27,6 +27,8 @@ handleBad=()=>{this.setState((prevState)=>{
         bad:prevState.bad+1
     }
 });};
+
+
     render(){
         return(
             <div>
